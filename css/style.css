@@ -1,0 +1,137 @@
+*  {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background: #f9f9f9;   
+}
+
+
+
+/* макет страницы */ 
+.page {
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 45px;
+    padding-right: 45px;
+    width: 973px;
+    height: 943px;
+    background: #ffffff;    
+    box-shadow:  0 2px 4px rgba(0, 0, 0, .2);
+    font-family: "Open Sans";
+}
+
+/* логотип*/
+.logo {
+    padding-bottom: 42px;
+}
+
+
+/*меню хедер*/
+
+#menu1 {
+    background:#525151; 
+}
+
+#menu1 li {
+    display: inline-block;
+}
+
+#menu1 a {
+    display: block; 
+    height: 35px;
+    line-height: 30px;  
+    padding: 0px 40px;
+    color: white; 
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+#menu1 a:hover {
+    background: #3e3e3e;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+
+/*сайдбар*/
+#sidebar {
+    float: left;
+    width: 240px;
+    padding-top: 40px;
+}
+
+ul, li {
+    list-style: none; 
+    margin: 0; 
+    padding: 0;
+}
+
+#menu2 {
+    width: 240px; 
+    border: 1px #d6d4d4 solid;  
+    background: #d6d4d4;
+    border-collapse: collapse;
+}
+#menu2 li {
+    text-align: left; 
+    margin: 0 0 1px 0; 
+}
+#menu2 a {
+    display: block;
+    color: #656363;
+    font-size: 10pt;
+    background: #ffffff; 
+    text-decoration: none;
+    padding: 8px 5px 0 20px;
+}
+
+#menu2 a:hover {
+    background: #f9f9f9; 
+    padding: 8px 5px 0 50px;
+}
+
+/*контент*/
+#content {
+    margin-left: 285px;
+    width: 678px;
+    padding-top: 40px;
+}
+
+.text {
+    padding: 40px 20px 60px 20px;
+    font-size: 10pt;
+}
+
+
+/*меню футер*/
+#footer {
+    background-color:#FFC0FF;
+    clear:both;
+}
+
+#menu3 {
+    background:#e1e1e1;
+}
+
+#menu3 li {
+    display: inline-block;
+}
+
+#menu3 a {
+    display: block; 
+    height: 35px;
+    line-height: 30px;  
+    padding: 0px 40px;
+    color: black; 
+    text-decoration: none; 
+    font-size: 10pt;
+}
+#menu3 a:hover {
+    text-decoration: underline;
+  }
+
+.text2  {
+    padding-left: 250px;
+    font-size: 10pt;
+}
