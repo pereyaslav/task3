@@ -15,11 +15,12 @@ body {
     padding-top: 50px;
     padding-left: 45px;
     padding-right: 45px;
-    width: 973px;
-    height: 943px;
+    width: 1060px;
+    height: 100%;
     background: #ffffff;    
     box-shadow:  0 2px 4px rgba(0, 0, 0, .2);
     font-family: "Open Sans";
+    box-sizing: border-box;
 }
 
 /* логотип*/
@@ -31,7 +32,7 @@ body {
 /*меню хедер*/
 
 #menu1 {
-    background:#525151; 
+    background: linear-gradient(to bottom, #5e5e5e 0%, #444343 100%); 
 }
 
 #menu1 li {
@@ -46,56 +47,56 @@ body {
     color: white; 
     text-decoration: none;
     font-size: 11pt;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
 }
 
 #menu1 a:hover {
-    background: #3e3e3e;
-    border-left: 1px solid #ffffff;
-    border-right: 1px solid #ffffff;
+     background: linear-gradient(to bottom, #4a4a4a 0%, #2f2f2f 100%); 
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
 }
-
+/*главная страница*/
+.mainpage{
+    position: relative;
+    overflow: hidden;
+    margin-top: 40px;
+}
 /*сайдбар*/
 #sidebar {
     float: left;
     width: 240px;
-    padding-top: 40px;
+/*    padding-top: 40px;*/
 }
-
-ul, li {
-    list-style: none; 
-    margin: 0; 
-    padding: 0;
+#menu2{
+    border: 1px solid #c8c8c8;
+} 
+#menu2 li{
+    border-top: 1px solid #c8c8c8;
+ 
 }
-
-#menu2 {
-    width: 240px; 
-    border: 1px #d6d4d4 solid;  
-    background: #d6d4d4;
-    border-collapse: collapse;
-}
-#menu2 li {
-    text-align: left; 
-    margin: 0 0 1px 0; 
+#menu2 li:first-child{
+    border: none;
 }
 #menu2 a {
-    display: block;
+    line-height: 37px;
     color: #656363;
-    font-size: 10pt;
-    background: #ffffff; 
+    padding: 0 0 0 20px;
     text-decoration: none;
-    padding: 8px 5px 0 20px;
+    display: block;
+    transition: 0.3s all;
 }
 
 #menu2 a:hover {
     background: #f9f9f9; 
-    padding: 8px 5px 0 50px;
+    padding: 0 0 0 35px;
 }
+
 
 /*контент*/
 #content {
-    margin-left: 285px;
-    width: 678px;
-    padding-top: 40px;
+    float: right;
+    width: 680px;
 }
 
 .text {
