@@ -2,16 +2,19 @@
     margin:0;
     padding: 0;
 }
+html{
+    height: 100%;
+}
 
 body {
     background: #f9f9f9;   
+    height:100%;
 }
-
 
 
 /* макет страницы */ 
 .page {
-    margin: auto;
+    margin: 0 auto;
     padding-top: 50px;
     padding-left: 45px;
     padding-right: 45px;
@@ -85,6 +88,8 @@ body {
     text-decoration: none;
     display: block;
     transition: 0.3s all;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #menu2 a:hover {
@@ -130,7 +135,7 @@ body {
 }
 #menu3 a:hover {
     text-decoration: underline;
-  }
+}
 
 .text2  {
     padding-left: 250px;
