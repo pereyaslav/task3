@@ -1,5 +1,5 @@
-*  {
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
 html{
@@ -7,35 +7,41 @@ html{
 }
 
 body {
-    background: #f9f9f9;   
-    height:100%;
+    background: #f9f9f9;
+   height: 100%;
 }
 
 
-/* макет страницы */ 
+/* макет страницы */
+
 .page {
     margin: 0 auto;
-    padding-top: 50px;
     padding-left: 45px;
     padding-right: 45px;
     width: 1060px;
+    height: auto !important;
     height: 100%;
-    background: #ffffff;    
-    box-shadow:  0 2px 4px rgba(0, 0, 0, .2);
+     
+    min-height: 100%;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
     font-family: "Open Sans";
     box-sizing: border-box;
 }
 
+
 /* логотип*/
+
 .logo {
     padding-bottom: 42px;
+    padding-top: 50px;
 }
 
 
 /*меню хедер*/
 
 #menu1 {
-    background: linear-gradient(to bottom, #5e5e5e 0%, #444343 100%); 
+    background: linear-gradient(to bottom, #5e5e5e 0%, #444343 100%);
 }
 
 #menu1 li {
@@ -43,11 +49,11 @@ body {
 }
 
 #menu1 a {
-    display: block; 
+    display: block;
     height: 35px;
-    line-height: 30px;  
+    line-height: 30px;
     padding: 0px 40px;
-    color: white; 
+    color: white;
     text-decoration: none;
     font-size: 11pt;
     border-left: 1px solid transparent;
@@ -55,32 +61,41 @@ body {
 }
 
 #menu1 a:hover {
-     background: linear-gradient(to bottom, #4a4a4a 0%, #2f2f2f 100%); 
+    background: linear-gradient(to bottom, #4a4a4a 0%, #2f2f2f 100%);
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
 }
+
+
 /*главная страница*/
-.mainpage{
+
+.mainpage {
     position: relative;
     overflow: hidden;
     margin-top: 40px;
 }
+
+
 /*сайдбар*/
+
 #sidebar {
     float: left;
     width: 240px;
-/*    padding-top: 40px;*/
+    /*    padding-top: 40px;*/
 }
-#menu2{
+
+#menu2 {
     border: 1px solid #c8c8c8;
-} 
-#menu2 li{
-    border-top: 1px solid #c8c8c8;
- 
 }
-#menu2 li:first-child{
+
+#menu2 li {
+    border-top: 1px solid #c8c8c8;
+}
+
+#menu2 li:first-child {
     border: none;
 }
+
 #menu2 a {
     line-height: 37px;
     color: #656363;
@@ -93,31 +108,34 @@ body {
 }
 
 #menu2 a:hover {
-    background: #f9f9f9; 
+    background: #f9f9f9;
     padding: 0 0 0 35px;
 }
 
 
 /*контент*/
+
 #content {
     float: right;
     width: 680px;
 }
 
 .text {
-    padding: 40px 20px 60px 20px;
+    padding: 40px 20px 10px 20px;
     font-size: 10pt;
 }
 
 
 /*меню футер*/
+
 #footer {
-    background-color:#FFC0FF;
-    clear:both;
+   
+   padding: 50px 0;
 }
 
 #menu3 {
-    background:#e1e1e1;
+    background: #e1e1e1;
+    margin-bottom: 30px;
 }
 
 #menu3 li {
@@ -125,19 +143,20 @@ body {
 }
 
 #menu3 a {
-    display: block; 
+    display: block;
     height: 35px;
-    line-height: 30px;  
+    line-height: 30px;
     padding: 0px 40px;
-    color: black; 
-    text-decoration: none; 
+    color: black;
+    text-decoration: none;
     font-size: 10pt;
 }
+
 #menu3 a:hover {
     text-decoration: underline;
 }
 
-.text2  {
+.text2 {
     padding-left: 250px;
     font-size: 10pt;
 }
